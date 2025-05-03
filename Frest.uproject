@@ -5,6 +5,10 @@
 	"Description": "",
 	"Plugins": [
 		{
+    			"Name": "SteamShared",
+    			"Enabled": true
+  		},
+		{
 			"Name": "ModelingToolsEditorMode",
 			"Enabled": true,
 			"TargetAllowList": [
@@ -25,6 +29,14 @@
 		},
 		{
 			"Name": "GPULightmass",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemSteam",
 			"Enabled": true
 		}
 	]
